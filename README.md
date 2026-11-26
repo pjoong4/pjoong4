@@ -7,24 +7,33 @@
 
 ---
 
-### 🛠 기술 스택
-- **Language:** `C` · `C++` · `Python`
-- **Embedded / Hardware:** `STM32 (Cortex-M)` · `Arduino` · `Embedded Linux` · `Raspberry Pi` · `ROS 2`
-- **AI / Vision:** `YOLOv8` · `OpenCV`
-- **Tools:** `Git` · `STM32CubeIDE` · `VS Code`
+### 🧠 주요 프로젝트
+
+- 🎮 **[Project-Mugunghwa](https://github.com/pjoong4/Project-Mugunghwa):** (2인 팀)  
+  STM32 모터·하이브리드 버튼, Arduino LCD 제어 및 ESP Wi-Fi·Bluetooth 기반 라즈베리파이 서버 연동 클라이언트 통신 구현
+
+- 🚗 **[Project-ParkingLot](https://github.com/pjoong4/Project-ParkingLot):** (4인 팀)  
+  STM32F411 기반 초음파 센서 및 이중 서보 모터 PWM 제어, 1차로 혼잡 방지용 인터록 FSM 펌웨어 구현
+
+- 🔋 **[Project-Battery](https://github.com/pjoong4/Project-Battery):** (2인 팀)  
+  웹캠 기반 폐건전지(9V, AA, AAA, 코인) 실시간 분류 시스템 — 커스텀 데이터셋 구축 및 YOLOv8 객체 검출 모델 학습
+
+- 🤖 **(진행 중인 프로젝트):** *(완료 후 공개 예정)*  
+  STM32 · ROS 2 · Embedded Linux 기반 온디바이스 AI 및 로보틱스 연동 프로젝트
 
 ---
 
-### 🧠 주요 프로젝트
-| 프로젝트 | 내용 | 담당 역할 및 사용 기술 |
-|---|---|---|
-| [Project-Mugunghwa](https://github.com/pjoong4/Project-Mugunghwa) | 다중 보드 연동 실시간 비전·제어 인터랙티브 시스템 (2인 팀) | STM32 모터·버튼(HW/SW 하이브리드 디바운싱) 및 Arduino LCD 제어, ESP Wi-Fi·Bluetooth 모듈 기반 라즈베리파이 서버 연동 클라이언트 통신 구현 (`STM32`, `Arduino`, `C`, `Wi-Fi`, `Bluetooth`) |
-| [Project-ParkingLot](https://github.com/pjoong4/Project-ParkingLot) | 출입구 통합 1차로 주차장 혼잡 방지용 이중 차단기 제어 시스템 (4인 팀) | 초음파 센서 및 서보 모터 2개 기반 차단기 제어 펌웨어·FSM 상태 머신 구현 (`STM32F411`, `C`, `PWM`) |
-| [Project-Battery](https://github.com/pjoong4/Project-Battery) | 웹캠 기반 폐건전지(9V, AA, AAA, 코인) 실시간 분류 키오스크 (2인 팀) | 데이터셋 구축 및 YOLOv8 객체 검출 모델 학습 (`Python`, `YOLOv8`, `OpenCV`) |
-| (진행 중인 프로젝트) | 온디바이스 AI 및 로보틱스 연동 프로젝트 (진행 중, 완료 후 공개) | `STM32`, `ROS 2`, `Embedded Linux` |
+### 🛠 기술 스택
+
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black"/> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Embedded_Linux-FCC624?style=flat-square&logo=linux&logoColor=black"/> <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white"/>
+<br/>
+<img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/> <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white"/> <img src="https://img.shields.io/badge/YOLOv8-00FFFF?style=flat-square&logo=yolo&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+<br/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
 
 ---
 
 ### 📚 실습 및 학습 기록
-- [LeetCode](https://github.com/pjoong4/LeetCode) — C 언어 기반 자료구조 및 비트 연산(Bit Manipulation) 알고리즘 풀이
+
+- 💻 **[LeetCode](https://github.com/pjoong4/LeetCode):** C 언어 기반 자료구조 및 비트 연산(Bit Manipulation) 알고리즘 풀이
 - *(정리 후 추가 예정)* `Practice-Firmware` — Cortex-M 펌웨어 및 주변장치 제어 실습
